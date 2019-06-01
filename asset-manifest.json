@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/yves-iraguha-portofolio/static/css/main.fbbc9371.chunk.css",
-    "main.js": "/yves-iraguha-portofolio/static/js/main.0dd95f12.chunk.js",
-    "main.js.map": "/yves-iraguha-portofolio/static/js/main.0dd95f12.chunk.js.map",
+    "main.css": "/yves-iraguha-portofolio/static/css/main.5c3a8c89.chunk.css",
+    "main.js": "/yves-iraguha-portofolio/static/js/main.bb469591.chunk.js",
+    "main.js.map": "/yves-iraguha-portofolio/static/js/main.bb469591.chunk.js.map",
     "runtime~main.js": "/yves-iraguha-portofolio/static/js/runtime~main.1ccbbfd3.js",
     "runtime~main.js.map": "/yves-iraguha-portofolio/static/js/runtime~main.1ccbbfd3.js.map",
     "static/css/2.acd42673.chunk.css": "/yves-iraguha-portofolio/static/css/2.acd42673.chunk.css",
-    "static/js/2.cd7803f4.chunk.js": "/yves-iraguha-portofolio/static/js/2.cd7803f4.chunk.js",
-    "static/js/2.cd7803f4.chunk.js.map": "/yves-iraguha-portofolio/static/js/2.cd7803f4.chunk.js.map",
+    "static/js/2.1b5fb3de.chunk.js": "/yves-iraguha-portofolio/static/js/2.1b5fb3de.chunk.js",
+    "static/js/2.1b5fb3de.chunk.js.map": "/yves-iraguha-portofolio/static/js/2.1b5fb3de.chunk.js.map",
     "index.html": "/yves-iraguha-portofolio/index.html",
-    "precache-manifest.b77cf800d2fe8d0489d2d6c935158b0a.js": "/yves-iraguha-portofolio/precache-manifest.b77cf800d2fe8d0489d2d6c935158b0a.js",
+    "precache-manifest.c6454e65652110542594e3cce60b6f83.js": "/yves-iraguha-portofolio/precache-manifest.c6454e65652110542594e3cce60b6f83.js",
     "service-worker.js": "/yves-iraguha-portofolio/service-worker.js",
     "static/css/2.acd42673.chunk.css.map": "/yves-iraguha-portofolio/static/css/2.acd42673.chunk.css.map",
-    "static/css/main.fbbc9371.chunk.css.map": "/yves-iraguha-portofolio/static/css/main.fbbc9371.chunk.css.map",
+    "static/css/main.5c3a8c89.chunk.css.map": "/yves-iraguha-portofolio/static/css/main.5c3a8c89.chunk.css.map",
     "static/media/all.min.css": "/yves-iraguha-portofolio/static/media/fa-solid-900.f14c3b2f.ttf",
     "static/media/user.png": "/yves-iraguha-portofolio/static/media/user.2d6128f0.png"
   }

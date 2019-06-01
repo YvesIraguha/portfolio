@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c0954cd25e116e01cdcac475ff55bcd4",
+    "revision": "9cc1c3e98565bf98322b3e5578898b45",
     "url": "/yves-iraguha-portofolio/index.html"
   },
   {
-    "revision": "175fbbb4a1eea6990db9",
+    "revision": "08949e35c56e4f972589",
     "url": "/yves-iraguha-portofolio/static/css/2.acd42673.chunk.css"
   },
   {
-    "revision": "12f9c051bcef177d4dfe",
-    "url": "/yves-iraguha-portofolio/static/css/main.fbbc9371.chunk.css"
+    "revision": "365953557c05a67a1e95",
+    "url": "/yves-iraguha-portofolio/static/css/main.5c3a8c89.chunk.css"
   },
   {
-    "revision": "175fbbb4a1eea6990db9",
-    "url": "/yves-iraguha-portofolio/static/js/2.cd7803f4.chunk.js"
+    "revision": "08949e35c56e4f972589",
+    "url": "/yves-iraguha-portofolio/static/js/2.1b5fb3de.chunk.js"
   },
   {
-    "revision": "12f9c051bcef177d4dfe",
-    "url": "/yves-iraguha-portofolio/static/js/main.0dd95f12.chunk.js"
+    "revision": "365953557c05a67a1e95",
+    "url": "/yves-iraguha-portofolio/static/js/main.bb469591.chunk.js"
   },
   {
     "revision": "214ef50fb50bb52eeabb",
