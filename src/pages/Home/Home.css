@@ -1,0 +1,23 @@
+.profile-image {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 50%;
+}
+
+#about-me-1,
+#about-me-2 {
+  max-width: 500px;
+}
+
+#about-me-2 {
+  margin-top: 2rem;
+}
+
+#social-icons {
+  text-align: center;
+}
+
+.social-icon {
+  font-size: 2rem;
+  margin: 1rem;
+}

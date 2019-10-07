@@ -1,26 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { HashRouter, Switch, Route } from "react-router-dom";
+import "bulma/css/bulma.css";
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import Home from "./pages/Home/Home";
+import Resume from "./pages/Resume/Resume";
+import Contact from "./pages/Contacts/Contacts";
+import NotFound from "./pages/NotFound";
+import NavBar from "./pages/components/NavBar/NavBar";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => (
+  <div>
+    <HashRouter basename="/">
+      <NavBar />
+      <Switch>
+        <Route path="/" exact component={Home} />
+        <Route path="/home" exact component={Home} />
+        <Route path="/resume" exact component={Resume} />
+        <Route path="/contact" exact component={Contact} />
+        <Route path="/*" exact component={NotFound} />
+      </Switch>
+    </HashRouter>
+  </div>
+);
 
 export default App;
