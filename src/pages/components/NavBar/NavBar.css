@@ -1,0 +1,18 @@
+#top-nav-bar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 9;
+}
+
+.first-name,
+.last-name {
+  margin-bottom: 0 !important;
+  font-weight: 600;
+}
+
+.last-name {
+  margin-left: 10px;
+  color: #349eeb;
+}
