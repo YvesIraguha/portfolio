@@ -1,6 +1,7 @@
 import React from "react";
 import { HashRouter, Switch, Route } from "react-router-dom";
 import "bulma/css/bulma.css";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 import Home from "./pages/Home/Home";
 import Resume from "./pages/Resume/Resume";
 import Contact from "./pages/Contacts/Contacts";
