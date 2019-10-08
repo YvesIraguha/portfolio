@@ -15,7 +15,7 @@ export default () => (
               <span className="subtitle is-4">iraguhaivos@gmail.com</span>
             </p>
             <p>
-              <i className="fa fa-phone-alt"></i>
+              <i className="fa fa-mobile-alt"></i>
               <span className="subtitle is-4">+250-786-338-635</span>
             </p>
           </div>
