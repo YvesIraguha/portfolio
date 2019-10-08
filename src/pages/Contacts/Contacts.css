@@ -1,0 +1,13 @@
+.circle {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.rectangle {
+  height: 160px;
+  width: 1px;
+  margin-left: 5px;
+  background-color: black;
+}

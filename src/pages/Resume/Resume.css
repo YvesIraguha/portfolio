@@ -1,0 +1,39 @@
+.item-description {
+  max-width: 500px;
+}
+
+.circle {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.rectangle {
+  height: 170px;
+  width: 1px;
+  background-color: black;
+}
+.title-content-separator {
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.project-image {
+  width: 25%;
+  object-fit: cover;
+}
+
+.project-right-item {
+  margin-left: 40px;
+}
+
+.project-left-item {
+  margin-right: 40px;
+}
+
+@media only screen and (max-width: 772px) {
+  .title-content-separator {
+    display: none;
+  }
+}
