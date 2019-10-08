@@ -1,13 +1,10 @@
-.circle {
-  height: 10px;
-  width: 10px;
-  border-radius: 50%;
-  background-color: black;
+p {
+  margin-bottom: 25px;
 }
-
-.rectangle {
-  height: 160px;
-  width: 1px;
-  margin-left: 5px;
-  background-color: black;
+p i {
+  font-size: 1.5rem;
+  color: #349eeb;
+}
+p span {
+  margin-left: 20px;
 }
