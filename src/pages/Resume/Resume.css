@@ -11,6 +11,7 @@
 
 .rectangle {
   height: 170px;
+  margin-left: 5px;
   width: 1px;
   background-color: black;
 }
