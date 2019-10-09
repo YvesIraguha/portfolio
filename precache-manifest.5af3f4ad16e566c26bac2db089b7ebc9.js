@@ -1,27 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9cc1c3e98565bf98322b3e5578898b45",
+    "revision": "4b09360a08c74138795ee316d8b5ddd1",
     "url": "/yves-iraguha-portofolio/index.html"
   },
   {
-    "revision": "08949e35c56e4f972589",
-    "url": "/yves-iraguha-portofolio/static/css/2.acd42673.chunk.css"
+    "revision": "c7670fc3dc3fd9d118cc",
+    "url": "/yves-iraguha-portofolio/static/css/2.8f2d6cb8.chunk.css"
   },
   {
-    "revision": "365953557c05a67a1e95",
-    "url": "/yves-iraguha-portofolio/static/css/main.5c3a8c89.chunk.css"
+    "revision": "f42470488c72ff6f6a5b",
+    "url": "/yves-iraguha-portofolio/static/css/main.c7b4c19e.chunk.css"
   },
   {
-    "revision": "08949e35c56e4f972589",
-    "url": "/yves-iraguha-portofolio/static/js/2.1b5fb3de.chunk.js"
+    "revision": "c7670fc3dc3fd9d118cc",
+    "url": "/yves-iraguha-portofolio/static/js/2.fc3c4ce3.chunk.js"
   },
   {
-    "revision": "365953557c05a67a1e95",
-    "url": "/yves-iraguha-portofolio/static/js/main.bb469591.chunk.js"
+    "revision": "f42470488c72ff6f6a5b",
+    "url": "/yves-iraguha-portofolio/static/js/main.fcec2422.chunk.js"
   },
   {
     "revision": "214ef50fb50bb52eeabb",
     "url": "/yves-iraguha-portofolio/static/js/runtime~main.1ccbbfd3.js"
+  },
+  {
+    "revision": "dbf67c4d52783acfeccf1e22a6f04ab4",
+    "url": "/yves-iraguha-portofolio/static/media/authors_heaven.dbf67c4d.png"
+  },
+  {
+    "revision": "8fb498d128c5f8627c34f2ad690e31ae",
+    "url": "/yves-iraguha-portofolio/static/media/companionApp.8fb498d1.png"
+  },
+  {
+    "revision": "d3770eb6fe3c36f2ada218ff038df7ce",
+    "url": "/yves-iraguha-portofolio/static/media/companion_dialogflow.d3770eb6.png"
   },
   {
     "revision": "38975343b586296e9b73e6b56cc3ec5d",
@@ -84,7 +96,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/yves-iraguha-portofolio/static/media/fa-solid-900.f14c3b2f.ttf"
   },
   {
-    "revision": "2d6128f06d602b5594bdfa1f41e40bf1",
-    "url": "/yves-iraguha-portofolio/static/media/user.2d6128f0.png"
+    "revision": "9ea6b37ba9e794db623b34f2d577ff5b",
+    "url": "/yves-iraguha-portofolio/static/media/full_profile.9ea6b37b.jpg"
+  },
+  {
+    "revision": "a90ccb35904739399acf240afa7c084b",
+    "url": "/yves-iraguha-portofolio/static/media/my_budget.a90ccb35.png"
   }
 ]);
