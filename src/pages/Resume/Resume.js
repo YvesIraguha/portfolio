@@ -1,6 +1,10 @@
 import React from "react";
 import "./Resume.css";
-import profile from "../../images/full_profile.jpg";
+import myBudget from "../../images/my_budget.png";
+import companionDialogFlow from "../../images/companion_dialogflow.png";
+import companionApp from "../../images/companionApp.png";
+import authorsHeaven from "../../images/authors_heaven.png";
+
 export default () => (
   <div className="hero is-fullheight">
     <div className="hero-body">
@@ -20,10 +24,11 @@ export default () => (
           <div className="column has-text-left">
             <h3 className="subtitle is-4">Andela</h3>
             <p className="item-description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              As a Junior Software Engineer, I contribute to different teams
+              which build different products ranging from mobile apps, using
+              ReactNative technology, to web applications. I build back-end
+              using Nodejs/Express and front-end using React & Redux, and
+              HTML/CSS/JS in some instances.
             </p>
           </div>
         </div>
@@ -42,12 +47,14 @@ export default () => (
             <div className="rectangle"></div>
           </div>
           <div className="column has-text-left">
-            <h3 className="subtitle is-4">University</h3>
+            <h3 className="subtitle is-4">
+              Southern New Hampshire University - Kepler Program
+            </h3>
             <p className="item-description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              I am a student in the Bachelor of Arts in Management,
+              concentration in Logistics and Operations. Through Kepler Program,
+              I work on College for America projects, ranging from
+              organizational effectiveness, to diversity at workplace.
             </p>
           </div>
         </div>
@@ -61,12 +68,12 @@ export default () => (
             <div className="rectangle"></div>
           </div>
           <div className="column has-text-left">
-            <h3 className="subtitle is-4">High School</h3>
+            <h3 className="subtitle is-4">Minor Seminary St Pie X Nyundo</h3>
             <p className="item-description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              I did Mathematics-Chemistry-Biology (MCB) as major, where I
+              graduated with 73/73 as grade. I was awarded the Outstanding
+              Performance in Rwanda National Examinations 2016 award, as a best
+              performer in all sciences and humanities in Rwanda.
             </p>
           </div>
         </div>
@@ -80,12 +87,13 @@ export default () => (
             <div className="rectangle"></div>
           </div>
           <div className="column has-text-left">
-            <h3 className="subtitle is-4">Primary School</h3>
+            <h3 className="subtitle is-4">Rutsiro Primary School</h3>
             <p className="item-description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              During my primary education, I developed my passion for
+              problem-solving, and the love of mathematics. I learned respecting
+              parents, friends, and people in general. I had a goal of
+              graduating from primary with excellent grades to get a boarding
+              school. Eventually I got Minor Seminary upon graduation.
             </p>
           </div>
         </div>
@@ -97,7 +105,7 @@ export default () => (
         <div className="columns">
           <div className="column has-text-right project-left-item">
             <img
-              src={profile}
+              src={myBudget}
               alt="Project Preview"
               className="project-image"
             />
@@ -105,17 +113,17 @@ export default () => (
           <div className="column has-text-left project-right-item">
             <h3 className="subtitle is-4">MyBudget</h3>
             <p className="item-description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              MyBudget-mobile is an application that help users to record
+              expenses so that they can evaluate their spendings over time. You
+              can use this product to record expenses as soon as you spend some
+              money so that you can track how well you use random fund.
             </p>
           </div>
         </div>
         <div className="columns">
           <div className="column has-text-right project-left-item">
             <img
-              src={profile}
+              src={companionApp}
               alt="Project Preview"
               className="project-image"
             />
@@ -123,17 +131,17 @@ export default () => (
           <div className="column has-text-left project-right-item">
             <h3 className="subtitle is-4">CompanionApp</h3>
             <p className="item-description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              This is a mobile application that acts as your virtual buddy that
+              allows you to book meeting rooms directly from your phone in
+              Andela. I worked on CompanionApp, as a mobile engineer. I used
+              ReactNative to contribute to the product.
             </p>
           </div>
         </div>
         <div className="columns">
           <div className="column has-text-right project-left-item">
             <img
-              src={profile}
+              src={companionDialogFlow}
               alt="Project Preview"
               className="project-image"
             />
@@ -141,17 +149,17 @@ export default () => (
           <div className="column has-text-left project-right-item">
             <h3 className="subtitle is-4">Companion-DialogFlow-Service</h3>
             <p className="item-description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              This is an intermediary service between DialogFlow and Google
+              Calendar to support convergeCompanionApp. It is a webhook for
+              DialogFlow integration with CompanionApp. This is a Nodejs/Express
+              application that we built as an intermediary service.
             </p>
           </div>
         </div>
         <div className="columns">
           <div className="column has-text-right project-left-item">
             <img
-              src={profile}
+              src={authorsHeaven}
               alt="Project Preview"
               className="project-image"
             />
@@ -159,10 +167,8 @@ export default () => (
           <div className="column has-text-left project-right-item">
             <h3 className="subtitle is-4">Author's Heaven</h3>
             <p className="item-description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              Create a community of like minded authors to foster inspiration
+              and innovation by leveraging the modern web.
             </p>
           </div>
         </div>
