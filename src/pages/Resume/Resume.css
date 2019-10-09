@@ -21,8 +21,8 @@
   margin-right: 40px;
 }
 .project-image {
-  width: 25%;
-  object-fit: cover;
+  width: 20%;
+  object-fit: scale-down;
 }
 
 .project-right-item {
