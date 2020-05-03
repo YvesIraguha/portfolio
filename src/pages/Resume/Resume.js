@@ -1,9 +1,9 @@
-import React from "react";
-import "./Resume.css";
-import myBudget from "../../images/my_budget.png";
-import companionDialogFlow from "../../images/companion_dialogflow.png";
-import companionApp from "../../images/companionApp.png";
-import authorsHeaven from "../../images/authors_heaven.png";
+import React from 'react'
+import './Resume.css'
+import myBudget from '../../images/my_budget.png'
+import companionDialogFlow from '../../images/companion_dialogflow.png'
+import companionApp from '../../images/companionApp.png'
+import authorsHeaven from '../../images/authors_heaven.png'
 
 export default () => (
   <div className="hero is-fullheight">
@@ -77,26 +77,6 @@ export default () => (
             </p>
           </div>
         </div>
-        <div className="columns">
-          <div className="column has-text-right">
-            <h3 className="subtitle is-4">2005 - 2010</h3>
-            <p className="subtitle is-5">Primary Education</p>
-          </div>
-          <div className="title-content-separator">
-            <div className="circle"></div>
-            <div className="rectangle"></div>
-          </div>
-          <div className="column has-text-left">
-            <h3 className="subtitle is-4">Rutsiro Primary School</h3>
-            <p className="item-description">
-              During my primary education, I developed my passion for
-              problem-solving, and the love of mathematics. I learned respecting
-              parents, friends, and people in general. I had a goal of
-              graduating from primary with excellent grades to get a boarding
-              school. Eventually I got Minor Seminary upon graduation.
-            </p>
-          </div>
-        </div>
         <hr />
 
         {/* Projects section  */}
@@ -111,9 +91,9 @@ export default () => (
             />
           </div>
           <div className="column has-text-left project-right-item">
-            <h3 className="subtitle is-4">MyBudget</h3>
+            <h3 className="subtitle is-4">PersonalFinance</h3>
             <p className="item-description">
-              MyBudget-mobile is an application that help users to record
+              PersonalFinance is an application that help users to record
               expenses so that they can evaluate their spendings over time. You
               can use this product to record expenses as soon as you spend some
               money so that you can track how well you use random fund.
@@ -239,4 +219,4 @@ export default () => (
       </div>
     </div>
   </div>
-);
+)
