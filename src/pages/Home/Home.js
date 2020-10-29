@@ -21,9 +21,9 @@ export default () => (
               knowledge amplifies it.
             </p>
             <p id="about-me-2">
-              Being a software engineer, I always want to learn new skills and
-              work on challenging projects so I can reach outside of my comfort
-              zone and grow.
+              Being a software engineer, I am eager to learn new skills and work
+              on challenging projects so I can reach outside of my comfort zone
+              and grow.
             </p>
             <div className="columns">
               <div className="column">
