@@ -1,9 +1,11 @@
-import React from 'react'
-import './Resume.css'
-import myBudget from '../../images/my_budget.png'
-import companionDialogFlow from '../../images/companion_dialogflow.png'
-import companionApp from '../../images/companionApp.png'
-import authorsHeaven from '../../images/authors_heaven.png'
+import React from "react";
+import "./Resume.css";
+import myBudget from "../../images/my_budget.png";
+import companionDialogFlow from "../../images/companion_dialogflow.png";
+import companionApp from "../../images/companionApp.png";
+import authorsHeaven from "../../images/authors_heaven.png";
+import teahouseMag from "../../images/teahousemag.png";
+import edgenrw from "../../images/edgenrw.png";
 
 export default () => (
   <div className="hero is-fullheight">
@@ -14,8 +16,25 @@ export default () => (
         <hr />
         <div className="columns">
           <div className="column has-text-right">
+            <h3 className="subtitle is-4">2020 - Present</h3>
+            <p className="subtitle is-5">Software Engineer</p>
+          </div>
+          <div className="title-content-separator">
+            <div className="circle"></div>
+            <div className="rectangle"></div>
+          </div>
+          <div className="column has-text-left">
+            <h3 className="subtitle is-4">Hala Systems</h3>
+            <p className="item-description">
+              I work in a team of engineers responsible for developing product
+              which is used for media authenticity verification.
+            </p>
+          </div>
+        </div>
+        <div className="columns">
+          <div className="column has-text-right">
             <h3 className="subtitle is-4">2019 - Present</h3>
-            <p className="subtitle is-5">Junior Software Engineer</p>
+            <p className="subtitle is-5">Software Engineer</p>
           </div>
           <div className="title-content-separator">
             <div className="circle"></div>
@@ -24,8 +43,8 @@ export default () => (
           <div className="column has-text-left">
             <h3 className="subtitle is-4">Andela</h3>
             <p className="item-description">
-              As a Junior Software Engineer, I contribute to different teams
-              which build different products ranging from mobile apps, using
+              As a Software Engineer, I contribute to different teams which
+              build different products ranging from mobile apps, using
               ReactNative technology, to web applications. I build back-end
               using Nodejs/Express and front-end using React & Redux, and
               HTML/CSS/JS in some instances.
@@ -58,30 +77,63 @@ export default () => (
             </p>
           </div>
         </div>
-        <div className="columns">
-          <div className="column has-text-right">
-            <h3 className="subtitle is-4">2011 - 2016</h3>
-            <p className="subtitle is-5">High School Diploma</p>
-          </div>
-          <div className="title-content-separator">
-            <div className="circle"></div>
-            <div className="rectangle"></div>
-          </div>
-          <div className="column has-text-left">
-            <h3 className="subtitle is-4">Minor Seminary St Pie X Nyundo</h3>
-            <p className="item-description">
-              I did Mathematics-Chemistry-Biology (MCB) as major, where I
-              graduated with 73/73 as grade. I was awarded the Outstanding
-              Performance in Rwanda National Examinations 2016 award, as a best
-              performer in all sciences and humanities in Rwanda.
-            </p>
-          </div>
-        </div>
+
         <hr />
 
         {/* Projects section  */}
         <h1 className="title is-3 has-text-centered">Projects</h1>
         <hr />
+        <div className="columns">
+          <div className="column has-text-right project-left-item">
+            <img
+              src={teahouseMag}
+              alt="Project Preview"
+              className="project-image"
+            />
+          </div>
+          <div className="column has-text-left project-right-item">
+            <h3 className="subtitle is-4">Tea House Magazine</h3>
+            <p className="item-description">
+              I designed, developed, and deployed the front-end and back-end
+              service of{" "}
+              <a
+                href="https://teahousemagazine.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Tea House Magazine
+              </a>
+              . Tea House Magazine is a platform of writers, whereby authors
+              submit their poems or short stories, they get reviewed by editors
+              and published through the platform.
+            </p>
+          </div>
+        </div>
+        <div className="columns">
+          <div className="column has-text-right project-left-item">
+            <img
+              src={edgenrw}
+              alt="Project Preview"
+              className="project-image"
+            />
+          </div>
+          <div className="column has-text-left project-right-item">
+            <h3 className="subtitle is-4">Edified Generation Rwanda</h3>
+            <p className="item-description">
+              Together with a small team of engineers, we developed{" "}
+              <a
+                href="https://edigenrwanda.org"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Edified Generation Rwanda
+              </a>{" "}
+              platform. We integrated Covid-19 essay writing contest through the
+              app, so that students whose schools stopped due to Corona-Virus
+              pandemic could learn while at home.
+            </p>
+          </div>
+        </div>
         <div className="columns">
           <div className="column has-text-right project-left-item">
             <img
@@ -158,65 +210,61 @@ export default () => (
         <hr />
         <div className="columns">
           <div className="column has-text-right project-left-item">
-            <h5 className="subtitle is-4">Reactjs & Redux - Intermediate</h5>
+            <h5 className="subtitle is-4">Reactjs & Redux </h5>
           </div>
           <div className="column has-text-left project-right-item">
-            <h5 className="subtitle is-4">Javascript - Proficient</h5>
+            <h5 className="subtitle is-4">Javascript </h5>
           </div>
         </div>
         <div className="columns">
           <div className="column has-text-right project-left-item">
-            <h5 className="subtitle is-4">
-              ReactNative & Redux - Intermediate
-            </h5>
+            <h5 className="subtitle is-4">ReactNative & Redux</h5>
           </div>
           <div className="column has-text-left project-right-item">
-            <h5 className="subtitle is-4">Git & GitHub - Proficient</h5>
+            <h5 className="subtitle is-4">Git & GitHub </h5>
           </div>
         </div>
         <div className="columns">
           <div className="column has-text-right project-left-item">
-            <h5 className="subtitle is-4">NodeJs & ExpressJs - Proficient</h5>
+            <h5 className="subtitle is-4">NodeJs & ExpressJs </h5>
           </div>
           <div className="column has-text-left project-right-item">
-            <h5 className="subtitle is-4">Project Management - Proficient</h5>
+            <h5 className="subtitle is-4">Project Management </h5>
           </div>
         </div>
         <div className="columns">
           <div className="column has-text-right project-left-item">
-            <h5 className="subtitle is-4">HTML & CSS - Proficient</h5>
+            <h5 className="subtitle is-4">HTML & CSS </h5>
           </div>
           <div className="column has-text-left project-right-item">
-            <h5 className="subtitle is-4">
-              Test Driven Development - Proficient
-            </h5>
+            <h5 className="subtitle is-4">Test Driven Development</h5>
           </div>
         </div>
         <div className="columns">
           <div className="column has-text-right project-left-item">
-            <h5 className="subtitle is-4">GraphQL - Beginner</h5>
+            <h5 className="subtitle is-4">GraphQL</h5>
           </div>
           <div className="column has-text-left project-right-item">
-            <h5 className="subtitle is-4">DevOps - Intermediate</h5>
+            <h5 className="subtitle is-4">DevOps </h5>
           </div>
         </div>
         <div className="columns">
           <div className="column has-text-right project-left-item">
-            <h5 className="subtitle is-4">English - Proficient</h5>
+            <h5 className="subtitle is-4">English </h5>
           </div>
           <div className="column has-text-left project-right-item">
-            <h5 className="subtitle is-4">French - Intermediate</h5>
+            <h5 className="subtitle is-4">French </h5>
           </div>
         </div>
         <div className="columns">
           <div className="column has-text-right project-left-item">
-            <h5 className="subtitle is-4">Kinyarwanda - Professional</h5>
+            <h5 className="subtitle is-4">Kinyarwanda </h5>
           </div>
           <div className="column has-text-left project-right-item">
-            <h5 className="subtitle is-4">Kiswahili - Beginner</h5>
+            <h5 className="subtitle is-4">Kiswahili </h5>
           </div>
         </div>
       </div>
     </div>
   </div>
-)
+);

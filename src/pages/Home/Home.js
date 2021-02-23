@@ -1,7 +1,7 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import profile from '../../images/full_profile.jpg'
-import './Home.css'
+import React from "react";
+import { Link } from "react-router-dom";
+import profile from "../../images/full_profile.jpg";
+import "./Home.css";
 
 export default () => (
   <div className="hero is-fullheight">
@@ -13,17 +13,17 @@ export default () => (
           </div>
           <div className="Column content">
             <h1 className="title is-1">I'm Yves Iraguha</h1>
-            <h3 className="title is-4">Junior Software Engineer - 2 years.</h3>
+            <h3 className="title is-4">Software Engineer - 3 years.</h3>
             <hr />
             <p id="about-me-1">
-              A fullstack web developer, who enjoy making complex issues simple
+              A fullstack web developer, who enjoys making complex issues simple
               to understand for beginners. I believe that sharing, and using the
-              knowledge amplifies the knowledge.
+              knowledge amplifies it.
             </p>
             <p id="about-me-2">
-              Being a junior software engineer, I always want to learn new
-              skills and work on challenging projects so I can reach outside of
-              my comfort zone and grow.
+              Being a software engineer, I am eager to learn new skills and work
+              on challenging projects so I can reach outside of my comfort zone
+              and grow.
             </p>
             <div className="columns">
               <div className="column">
@@ -74,4 +74,4 @@ export default () => (
       </div>
     </div>
   </div>
-)
+);
