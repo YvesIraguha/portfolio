@@ -1,12 +1,7 @@
 import React from "react";
 import "./Resume.css";
-import myBudget from "../../images/my_budget.png";
-import companionDialogFlow from "../../images/companion_dialogflow.png";
-import companionApp from "../../images/companionApp.png";
-import authorsHeaven from "../../images/authors_heaven.png";
-import teahouseMag from "../../images/teahousemag.png";
-import edgenrw from "../../images/edgenrw.png";
 import skills from "./skills";
+import projects from "./projects";
 
 export default () => (
   <div className="hero is-fullheight">
@@ -84,94 +79,22 @@ export default () => (
         {/* Projects section  */}
         <h1 className="title is-3 has-text-centered">Projects</h1>
         <hr />
-        <div className="columns">
-          <div className="column has-text-right project-left-item">
-            <img
-              src={teahouseMag}
-              alt="Project Preview"
-              className="project-image"
-            />
+        {projects.map((project, i) => (
+          <div className="columns" key={i}>
+            <div className="column has-text-right project-left-item">
+              <img
+                src={project.thumbnail}
+                alt="Project Preview"
+                className="project-image"
+              />
+            </div>
+            <div className="column has-text-left project-right-item">
+              <h3 className="subtitle is-4">{project.title}</h3>
+              <p className="item-description">{project.description}</p>
+            </div>
           </div>
-          <div className="column has-text-left project-right-item">
-            <h3 className="subtitle is-4">Tea House Magazine</h3>
-            <p className="item-description">
-              I designed, developed, and deployed the front-end and back-end
-              service of{" "}
-              <a
-                href="https://teahousemagazine.org/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Tea House Magazine
-              </a>
-              . Tea House Magazine is a platform of writers, whereby authors
-              submit their poems or short stories, they get reviewed by editors
-              and published through the platform.
-            </p>
-          </div>
-        </div>
-        <div className="columns">
-          <div className="column has-text-right project-left-item">
-            <img
-              src={edgenrw}
-              alt="Project Preview"
-              className="project-image"
-            />
-          </div>
-          <div className="column has-text-left project-right-item">
-            <h3 className="subtitle is-4">Edified Generation Rwanda</h3>
-            <p className="item-description">
-              Together with a small team of engineers, we developed{" "}
-              <a
-                href="https://edigenrwanda.org"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Edified Generation Rwanda
-              </a>{" "}
-              platform. We integrated Covid-19 essay writing contest through the
-              app, so that students whose schools stopped due to Corona-Virus
-              pandemic could learn while at home.
-            </p>
-          </div>
-        </div>
-        <div className="columns">
-          <div className="column has-text-right project-left-item">
-            <img
-              src={myBudget}
-              alt="Project Preview"
-              className="project-image"
-            />
-          </div>
-          <div className="column has-text-left project-right-item">
-            <h3 className="subtitle is-4">PersonalFinance</h3>
-            <p className="item-description">
-              PersonalFinance is an application that help users to record
-              expenses so that they can evaluate their spendings over time. You
-              can use this product to record expenses as soon as you spend some
-              money so that you can track how well you use random fund.
-            </p>
-          </div>
-        </div>
-        <div className="columns">
-          <div className="column has-text-right project-left-item">
-            <img
-              src={companionApp}
-              alt="Project Preview"
-              className="project-image"
-            />
-          </div>
-          <div className="column has-text-left project-right-item">
-            <h3 className="subtitle is-4">CompanionApp</h3>
-            <p className="item-description">
-              This is a mobile application that acts as your virtual buddy that
-              allows you to book meeting rooms directly from your phone in
-              Andela. I worked on CompanionApp, as a mobile engineer. I used
-              ReactNative to contribute to the product.
-            </p>
-          </div>
-        </div>
-        <div className="columns">
+        ))}
+        {/* <div className="columns">
           <div className="column has-text-right project-left-item">
             <img
               src={companionDialogFlow}
@@ -188,23 +111,7 @@ export default () => (
               application that we built as an intermediary service.
             </p>
           </div>
-        </div>
-        <div className="columns">
-          <div className="column has-text-right project-left-item">
-            <img
-              src={authorsHeaven}
-              alt="Project Preview"
-              className="project-image"
-            />
-          </div>
-          <div className="column has-text-left project-right-item">
-            <h3 className="subtitle is-4">Author's Heaven</h3>
-            <p className="item-description">
-              Create a community of like minded authors to foster inspiration
-              and innovation by leveraging the modern web.
-            </p>
-          </div>
-        </div>
+        </div> */}
         <hr />
         {/* Skills section  */}
         <h1 className="title is-3 has-text-centered">SKills</h1>
