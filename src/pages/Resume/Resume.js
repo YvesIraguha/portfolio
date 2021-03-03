@@ -6,6 +6,7 @@ import companionApp from "../../images/companionApp.png";
 import authorsHeaven from "../../images/authors_heaven.png";
 import teahouseMag from "../../images/teahousemag.png";
 import edgenrw from "../../images/edgenrw.png";
+import skills from "./skills";
 
 export default () => (
   <div className="hero is-fullheight">
@@ -208,62 +209,16 @@ export default () => (
         {/* Skills section  */}
         <h1 className="title is-3 has-text-centered">SKills</h1>
         <hr />
-        <div className="columns">
-          <div className="column has-text-right project-left-item">
-            <h5 className="subtitle is-4">Reactjs & Redux </h5>
+        {skills.map((skillSet, i) => (
+          <div className="columns" key={i}>
+            <div className="column has-text-right project-left-item">
+              <h5 className="subtitle is-4">{skillSet[0]} </h5>
+            </div>
+            <div className="column has-text-left project-right-item">
+              <h5 className="subtitle is-4">{skillSet[1]} </h5>
+            </div>
           </div>
-          <div className="column has-text-left project-right-item">
-            <h5 className="subtitle is-4">Javascript </h5>
-          </div>
-        </div>
-        <div className="columns">
-          <div className="column has-text-right project-left-item">
-            <h5 className="subtitle is-4">ReactNative & Redux</h5>
-          </div>
-          <div className="column has-text-left project-right-item">
-            <h5 className="subtitle is-4">Git & GitHub </h5>
-          </div>
-        </div>
-        <div className="columns">
-          <div className="column has-text-right project-left-item">
-            <h5 className="subtitle is-4">NodeJs & ExpressJs </h5>
-          </div>
-          <div className="column has-text-left project-right-item">
-            <h5 className="subtitle is-4">Project Management </h5>
-          </div>
-        </div>
-        <div className="columns">
-          <div className="column has-text-right project-left-item">
-            <h5 className="subtitle is-4">HTML & CSS </h5>
-          </div>
-          <div className="column has-text-left project-right-item">
-            <h5 className="subtitle is-4">Test Driven Development</h5>
-          </div>
-        </div>
-        <div className="columns">
-          <div className="column has-text-right project-left-item">
-            <h5 className="subtitle is-4">GraphQL</h5>
-          </div>
-          <div className="column has-text-left project-right-item">
-            <h5 className="subtitle is-4">DevOps </h5>
-          </div>
-        </div>
-        <div className="columns">
-          <div className="column has-text-right project-left-item">
-            <h5 className="subtitle is-4">English </h5>
-          </div>
-          <div className="column has-text-left project-right-item">
-            <h5 className="subtitle is-4">French </h5>
-          </div>
-        </div>
-        <div className="columns">
-          <div className="column has-text-right project-left-item">
-            <h5 className="subtitle is-4">Kinyarwanda </h5>
-          </div>
-          <div className="column has-text-left project-right-item">
-            <h5 className="subtitle is-4">Kiswahili </h5>
-          </div>
-        </div>
+        ))}
       </div>
     </div>
   </div>
