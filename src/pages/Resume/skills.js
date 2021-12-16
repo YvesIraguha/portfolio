@@ -12,6 +12,9 @@ export default [
   ["Mongodb", "Pymongo"],
   ["Circle CI", "Travis CI"],
   ["Docker", "Docker-compose"],
-  ["English", "Kinyarwanda"],
+  ["SASS & SCSS", "Networking Fundamentals"],
+  ["Linux", "Command Line"],
+  //   ["Webpack", "Ngnix"],
+  //   ["English", "Kinyarwanda"],
   //   ["Kinyarwanda", "Kiswahili"],
 ];
