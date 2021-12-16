@@ -54,7 +54,7 @@ export default () => (
         <hr />
         <div className="columns">
           <div className="column has-text-right">
-            <h3 className="subtitle is-4">2017 - Present</h3>
+            <h3 className="subtitle is-4">2017 - 2021 </h3>
             <p className="subtitle is-5">Bachelor's Degree</p>
           </div>
           <div className="title-content-separator">
@@ -66,10 +66,8 @@ export default () => (
               Southern New Hampshire University - Kepler Program
             </h3>
             <p className="item-description">
-              I am a student in the Bachelor of Arts in Management,
-              concentration in Logistics and Operations. Through Kepler Program,
-              I work on College for America projects, ranging from
-              organizational effectiveness, to diversity at workplace.
+              Bachelor of Arts in Management, Concentration in Logistics and
+              Operations.
             </p>
           </div>
         </div>
@@ -77,16 +75,24 @@ export default () => (
         <hr />
 
         {/* Projects section  */}
-        <h1 className="title is-3 has-text-centered">Projects</h1>
+        <h1 className="title is-3 has-text-centered">Technical Projects</h1>
         <hr />
         {projects.map((project, i) => (
           <div className="columns" key={i}>
-            <div className="column has-text-right project-left-item">
+            {/* <div className="column has-text-right project-left-item">
               <img
                 src={project.thumbnail}
                 alt="Project Preview"
                 className="project-image"
               />
+            </div> */}
+            <div className="column has-text-right">
+              <h3 className="subtitle is-4">{project.title}</h3>
+              <p className="subtitle is-5">{project.date}</p>
+            </div>
+            <div className="title-content-separator">
+              <div className="circle"></div>
+              <div className="rectangle"></div>
             </div>
             <div className="column has-text-left project-right-item">
               <h3 className="subtitle is-4">{project.title}</h3>
