@@ -22,8 +22,22 @@ export default () => (
           <div className="column has-text-left">
             <h3 className="subtitle is-4">Hala Systems</h3>
             <p className="item-description">
-              I work in a team of engineers responsible for developing product
-              which is used for media authenticity verification.
+              I work with a team of software & hardware engineers to build tools
+              and products which are used to support a mission of saving lives
+              and protecting everything that matters in conflict-affected areas.
+              {/* Implemented functionalities on top of AWS Cognito to enable all
+              our applications to authenticate/authorize users using one single
+              source of truth. Built dashboard to provide easy monitoring and
+              management of IoT devices on the fields Built back-end
+              micro-services with AWS Serverless technologies like lambda, S3,
+              SNS, and DynamoDB to ensure smooth integrations of our systems.
+              Built an offline support system for our web applications Developed
+              a system to manage the expiration of inactive records in our
+              incident tracking application Enabled internationalization of our
+              applications to ensure that they are friendly to both English
+              speakers and Arabic speakers. Participated in different researches
+              which explore how best to use available technologies, and
+              presented different solutions to the team. */}
             </p>
           </div>
         </div>
@@ -44,6 +58,14 @@ export default () => (
               ReactNative technology, to web applications. I build back-end
               using Nodejs/Express and front-end using React & Redux, and
               HTML/CSS/JS in some instances.
+              {/* Together with a team of other
+              engineers, we built Author's Haven, a platform for authors to
+              share ideas with the audience. I integrated our ReactNative
+              application with Google DialogFlow in order to provide a
+              conversational experience to our users. I designed, built,
+              deployed, and monitored TeaMagazine, a platform for East African
+              poets and writers to share their writings and to motivate each
+              other */}
             </p>
           </div>
         </div>
